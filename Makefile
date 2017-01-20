@@ -1,6 +1,6 @@
 CXXFLAGS="-std=c++11"
 
-lexical_analyzer:
+lexical_analyzer: lexical_analyzer.cpp
 	g++ $(CXXFLAGS) lexical_analyzer.cpp -o lexical_analyzer
 	./lexical_analyzer
 	rm lexical_analyzer
